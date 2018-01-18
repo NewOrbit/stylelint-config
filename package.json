@@ -1,0 +1,36 @@
+{
+    "name": "@neworbit/stylelint-config",
+    "version": "1.0.0",
+    "description": "NewOrbit standard config for stylelint",
+    "main": "index.js",
+    "files": [
+            "index.js"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NewOrbit/stylelint-config.git"
+    },
+    "keywords": [
+        "stylelint",
+        "scss",
+        "sass",
+        "lint"
+    ],
+    "author": "NewOrbit Ltd",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NewOrbit/stylelint-config/issues"
+    },
+    "homepage": "https://github.com/NewOrbit/stylelint-config#readme",
+    "dependencies": {
+        "stylelint-config-sass-guidelines": "^4.1.0"
+    },
+    "peerDependencies": {
+        "stylelint": "^8.3.0",
+        "stylelint-scss": "^2.0.0",
+        "stylelint-order": "^0.8.0"
+    }
+}
