@@ -56,3 +56,7 @@ config.plugins.push(new StyleLintPlugin(styleLintOptions));
 
  - Update version in `package.json`
  - Run `npm publish`
+
+ ## Visual Studio Code
+To make life better in Visual Studio Code when using stylint install:
+[VSCode Stylelint Plugin](https://github.com/shinnn/vscode-stylelint)
