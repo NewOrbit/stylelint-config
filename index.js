@@ -230,7 +230,7 @@ module.exports = {
                 "http:",
                 "https:",
                 "data:",
-                "//"
+                "^(\/\/)"
             ],
             "/^border/": [
                 "none"
