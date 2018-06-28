@@ -229,8 +229,7 @@ module.exports = {
             "/^background/": [
                 "http:",
                 "https:",
-                "data:",
-                "//"
+                "data:"
             ],
             "/^border/": [
                 "none"
