@@ -1,23 +1,21 @@
-# @neworbit/stylelint-config
+# neworbit-stylelint-config
 
 NewOrbit standard config for stylelint
 
 ## Usage
 ### Installation
 
- > Ensure you have set up npm to [assocaite @neworbit packages with myget](https://github.com/NewOrbit/development-guidelines/blob/master/how-to/npm/associate-%40neworbit-packages-with-myget.md)
-
-`npm install @neworbit/stylelint-config --save-dev`
+`npm install neworbit-stylelint-config --save-dev`
 
 ### Setup
 
  - Install peer dependencies
- `npm install stylelint stylelint-scss stylelint-order --save-dev`
+ `npm install stylelint stylelint-scss stylelint-order stylelint-no-unsupported-browser-features --save-dev`
  - Add `.stylelintrc.json` file with the following contents:
 
  ```json
 {
-    "extends": "@neworbit/stylelint-config"
+    "extends": "neworbit-stylelint-config"
 }
  ```
 
@@ -50,13 +48,10 @@ config.plugins.push(new StyleLintPlugin(styleLintOptions));
 
 ```
 
-## Publishing a new version
-
- > Ensure you have set up npm to [assocaite @neworbit packages with myget](https://github.com/NewOrbit/development-guidelines/blob/master/how-to/npm/associate-%40neworbit-packages-with-myget.md)
-
- - Update version in `package.json`
- - Run `npm publish`
-
- ## Visual Studio Code
+## Visual Studio Code
 To make life better in Visual Studio Code when using stylint install:
 [VSCode Stylelint Plugin](https://github.com/shinnn/vscode-stylelint)
+
+## License
+
+Made with :sparkling_heart: by [NewOrbit](https://www.neworbit.co.uk/) in Oxfordshire, and licensed under the [MIT Licence](LICENCE)
