@@ -49,7 +49,7 @@ config.plugins.push(new StyleLintPlugin(styleLintOptions));
 ```
 
 ## Visual Studio Code
-To make life better in Visual Studio Code when using stylint install:
+To make life better in Visual Studio Code when using stylelint install:
 [VSCode Stylelint Plugin](https://github.com/shinnn/vscode-stylelint)
 
 ## License
