@@ -27,9 +27,9 @@
     "homepage": "https://github.com/NewOrbit/stylelint-config#readme",
     "dependencies": {},
     "peerDependencies": {
-        "stylelint": "^8.3.0",
-        "stylelint-scss": "^2.0.0",
-        "stylelint-order": "^0.8.0",
-        "stylelint-no-unsupported-browser-features": "^3.0.0"
+        "stylelint": "8.x",
+        "stylelint-scss": "2.x",
+        "stylelint-order": "0.x",
+        "stylelint-no-unsupported-browser-features": "3.x"
     }
 }
