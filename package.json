@@ -1,6 +1,6 @@
 {
     "name": "neworbit-stylelint-config",
-    "version": "2.0.7",
+    "version": "2.0.8",
     "description": "NewOrbit standard config for stylelint",
     "main": "index.js",
     "files": [
