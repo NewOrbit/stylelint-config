@@ -305,11 +305,13 @@ module.exports = {
         "selector-max-empty-lines": 0,
         "selector-max-id": 0,
         "selector-max-specificity": "0,4,0",
-        "selector-max-type": [ 0, {
+        "selector-max-type": [
+            0,
+            {
                 "ignoreTypes": [
-                        "/^(html|body)$/"
-                    ]
-            }
+                    "/^(html|body)$/"
+                ]
+            }            
         ],
         "selector-no-qualifying-type": true,
         "selector-pseudo-class-case": "lower",
