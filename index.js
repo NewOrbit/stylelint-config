@@ -311,7 +311,7 @@ module.exports = {
                 "ignoreTypes": [
                     "/^(html|body)$/"
                 ]
-            }            
+            }
         ],
         "selector-no-qualifying-type": true,
         "selector-pseudo-class-case": "lower",
