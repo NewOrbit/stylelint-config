@@ -323,6 +323,15 @@ module.exports = {
         "shorthand-property-no-redundant-values": true,
         "string-no-newline": true,
         "string-quotes": "double",
+        "unit-blacklist": [
+            [ "px" ],
+            {
+                "ignoreProperties": {
+                    
+                    "px": [ "/^border(-(top|bottom|left|right))?(-width)?$/" ]
+                }
+            }
+        ],
         "unit-case": "lower",
         "unit-no-unknown": true,
         "value-list-comma-newline-after": "always-multi-line",
