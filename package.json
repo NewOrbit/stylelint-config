@@ -30,6 +30,6 @@
         "stylelint": "13.x",
         "stylelint-scss": "3.x",
         "stylelint-order": "4.x",
-        "stylelint-no-unsupported-browser-features": "^4.x"
+        "stylelint-no-unsupported-browser-features": "4.x"
     }
 }
