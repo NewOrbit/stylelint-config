@@ -323,7 +323,7 @@ module.exports = {
         "shorthand-property-no-redundant-values": true,
         "string-no-newline": true,
         "string-quotes": "double",
-        "unit-blacklist": [
+        "unit-disallowed-list": [
             [ "px" ],
             {
                 "ignoreProperties": {
