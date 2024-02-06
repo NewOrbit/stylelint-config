@@ -1,12 +1,18 @@
 "use strict";
 
 module.exports = {
+    "extends": [
+        "stylelint-config-standard-scss",
+        "@stylistic/stylelint-config"
+    ],
     "plugins": [
         "stylelint-order",
         "stylelint-scss",
         "stylelint-no-unsupported-browser-features"
     ],
     "rules": {
+        "@stylistic/indentation": null,
+        "@stylistic/max-line-length": 160,
         "at-rule-disallowed-list": ["extend"],
         "at-rule-name-case": "lower",
         "at-rule-name-space-after": "always-single-line",
