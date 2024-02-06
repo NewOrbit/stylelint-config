@@ -10,7 +10,7 @@ NewOrbit standard config for stylelint
 ### Setup
 
  - Install peer dependencies
- `npm install stylelint stylelint-scss stylelint-order stylelint-no-unsupported-browser-features --save-dev`
+ `npm install stylelint stylelint-config-standard-scss stylelint-scss stylelint-order stylelint-no-unsupported-browser-features --save-dev`
  - Add `.stylelintrc.json` file with the following contents:
 
  ```json
@@ -50,7 +50,7 @@ config.plugins.push(new StyleLintPlugin(styleLintOptions));
 
 ## Visual Studio Code
 To make life better in Visual Studio Code when using stylelint install:
-[VSCode Stylelint Plugin](https://github.com/shinnn/vscode-stylelint)
+[VSCode Stylelint Plugin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 
 ## License
 
