@@ -31,6 +31,7 @@
         "stylelint-config-standard-scss": "13.x",
         "stylelint-scss": "6.x",
         "stylelint-order": "6.x",
-        "stylelint-no-unsupported-browser-features": "8.x"
+        "stylelint-no-unsupported-browser-features": "8.x",
+        "@stylistic/stylelint-config": "1.x"
     }
 }

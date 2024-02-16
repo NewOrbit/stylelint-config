@@ -10,7 +10,7 @@ NewOrbit standard config for stylelint
 ### Setup
 
  - Install peer dependencies
- `npm install stylelint stylelint-config-standard-scss stylelint-scss stylelint-order stylelint-no-unsupported-browser-features --save-dev`
+ `npm install stylelint stylelint-config-standard-scss @stylistic/stylelint-config stylelint-scss stylelint-order stylelint-no-unsupported-browser-features --save-dev`
  - Add `.stylelintrc.json` file with the following contents:
 
  ```json
